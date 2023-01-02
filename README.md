@@ -49,4 +49,7 @@ Graphing data
 
 ![lab3 6](https://user-images.githubusercontent.com/121079918/210211831-7ceb923e-94bf-40c2-be7a-1faab9280c4b.png)
 
+Database preview
+
+![lab3 database preview](https://user-images.githubusercontent.com/121079918/210212894-723e5820-fa3e-494f-888e-f1f3b0338ae6.png)
 
