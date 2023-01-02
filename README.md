@@ -10,7 +10,7 @@ UNData.xml
 The user selects a country, and passes the country name to the Business Layer.  Uses TKinter to produce a pull-down for the user to select a country. Sends the selected country to the Business Layer.
 
 **Business Layer:**
-Receives the information from the User Layer and constructs a SQL query to send to the Data Layer.  The query extracts the yearly data (1990,2017) for the requested country.  The data may be queried either country year-by-year or in one query for year range.  After receiving the JSON string back from the Data Layer, send the data to the Graphic Layer for plotting.
+Receives the information from the User Layer and constructs a SQL query to send to the Data Layer.  The query extracts the yearly data (1990,2017) for the requested country.  The data may be queried either country year-by-year or in one query for year range.  After receiving the JSON string back from the Data Layer, data is sent to the Graphic Layer for plotting.
 
 **Data Layer:**
 Constructs a SQL Database based on the data from the DataFile.  Processes the queries from the Business Layer.   Sends back a JSON string for the requested query.  
